@@ -7,14 +7,25 @@
 
 
 pre {
+    padding: 12px 6px;
     color: #fefefe;
     background-color: #1b1b1b;
     border-radius: var(--radius);
     font-family: var(--code);
+    margin-bottom: .75rem;
+    margin-top: .75rem;
 }
 
 .tag {
     color: red;
+}
+
+.attribute {
+  color: green;
+}
+
+.value {
+  color: goldenrod
 }
 
 /* 

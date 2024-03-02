@@ -3,5 +3,6 @@
     --code: "Source Code Pro", monospace;
     --body-text: "Rubik", sans-serif;
 
-    --body-color: ;
+    --body-color: rgb(41, 44, 48);
+    --para-space: 8px
 }

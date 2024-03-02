@@ -1,15 +1,39 @@
 body {
+    background-color: aliceblue;
     font-family: var(--body-text);
-    margin: 0 auto;
-    max-width: 48rem;
+    color: var(--body-color);
+
     margin-top: 48px;
 
+}
+
+nav {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 48rem;
+}
+
+a:link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.0625rem;
+}
+
+a:link:hover {
+    color: darkred;
 }
 
 p {
     line-height: 1.75;
     max-width: 48rem;
     margin-bottom: 16px;
+    margin-top: var(--para-space);
 }
 
 h1 {
@@ -17,6 +41,16 @@ h1 {
     font-weight: 700;
     letter-spacing: 1.5px;
     margin-bottom: 24px;
+}
+
+h2 {
+    margin-top: 24px;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    margin-top: 1rem;
+    margin-bottom: .75rem;
 }
 
 strong {
@@ -28,7 +62,17 @@ strong {
 
 .super {
     font-size: 1.25rem;
-    font-weight: ;
+    font-weight: 900;
+}
+
+.block-w100 {
+    display: block;
+    width: 100%;
+}
+
+li {
+    padding-left: 1.5rem;
+    margin: .5rem 0rem;
 }
 
 
